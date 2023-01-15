@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML cheatsheet</title>
+</head>
+<body>
+
+    <!-- Headings -->
+        HTML has 6 levels of headings &lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt,
+        &lth5&gt, &lth6&gt. &lth1&gt is used for main headings &lth2&gt is used
+        for subheadings If there are further sections under the subheadings then
+        the &lth3&gt element is used, and so on...
+        <h1>This is a h1 heading</h1>
+        <h2>This is a h2 heading</h2>
+        <h3>This is a h3 heading</h3>
+        <h4>This is a h4 heading</h4>
+        <h5>This is a h5 heading</h5>
+        <h6>This is a h6 heading</h6>
+
+
+    <!--Paragraph -->
+
+      <p>
+        To create a paragraph,use opening &ltp&gt tag and write your paragraph in it and end with closing &lt/p&gt tag. By default, a browser
+        will show each paragraph on a new line with some space between it and any
+        subsequent paragraphs.This is how we make a word appear <b>bold.</b> using &ltb&gt tag 
+        This is how we make a word appear <i>italic</i> using &lti&gt tag if you wanted to add a line break inside the 
+        middle of a paragraph you can use the line break tag &ltbr /&gt. <br>
+        On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.  The &ltsup&gt element is used to contain characters that 
+        should be superscript such as the suffixes of dates or mathematical concepts like raising a number to a power such as 22The amount 
+        of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.  The &ltsub&gt element is used to contain characters that should 
+        be subscript. It is commonly used with foot notes or chemical formulas such as H20 ->H<sub>2</sub>
+        To create a break between themes — such as a change of topic in a book or a new scene in a play — you can add a horizontal rule between sections 
+        using the &lthr /&gt tag.
+      </p>
+        <hr>
+       
+     <!--  strong tag and q tag -->
+      <p>The use of the  <strong>&ltstrong&gt</strong> element indicates that its content has strong importance. The content written in strong tag are bold 
+          The <q> &lt q &gt </q> element is used for shorter quotes that sit within a paragraph
+      </p>
+
+    <!-- address tag -->
+      Browsers often display the content of the &ltaddress&gt element in italics
+      <address>ph.no 9404769071, email : ayeshaakhatoon.ak@gmail.com</address>
+
+    <!--   del tag and ins tag-->
+      <p>Using <del>del tag</del> <ins>ins tag</ins> del tag strikes the word and ins tag udernline the word </p>
+
+   <!--  Lists -->
+
+    <!--   ordered lists -->
+      <ol> 
+        <li>laptop </li>
+        <li>Mobile </li>
+        <li>Tab </li>
+    </ol>
+   <!--  Unordered list -->
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+   <!--  defination list -->
+    <dl> 
+        <dt><b>Sashimi-</b></dt>
+        <dd>Sliced raw fish that is served with 
+         condiments such as shredded daikon radish or 
+         ginger root, wasabi and soy sauce</dd>
+   </dl>
+ <!--  forms -->
+
+    <p>Log in Page
+    <form method = "post">    
+        <label for="username">UserName: </label> <br />
+        <input type="text" id="firstname" name="firstname" required="required"/><br />
+        <label for="password">Password: </label><br>
+        <input type="password" id="password" name="password" required="required" /> <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </p>
+ 
+    <br>
+    <form>
+      Which Color do you like:
+     <br />
+    <input type="radio" name="color" value="whitw" 
+     checked="checked" /> White
+    <input type="radio" name="color" value="blue" /> 
+     Blue
+    <input type="radio" name="color" value="black" /> 
+     Black
+   </form>
+   <br>
+    Check list
+   <form> <input type="checkbox" name="service" 
+    value="itunes" checked="checked" />Sleep<br>
+    <input type="checkbox" name="service" 
+    value="lastfm" />Eat <br>
+    <input type="checkbox" name="service" 
+    value="spotify" />Code</form>
+    <br>
+  Drop Down
+   <form><select name="Languages">
+   <option value="Hello">Hello</option>
+   <option value="Bonjour">Bonjour</option>
+   <option value="Hola">Hola</option>
+   </select></form>
+   <br>
+    File Input Box: <br>
+   <form>
+   <label for="myfile">Select a file:</label>
+   <input type="file" id="myfile" name="myfile">
+   </form>
+   <br>
+   Color
+   <form>
+   <input type ="color">
+   </form>
+
+
+ <!-- iframe Tag -->
+
+   <h3>Location</h3>
+   <iframe width="425" height="275" frameborder="0" 
+   scrolling="no" marginheight="0" marginwidth="0" 
+   src="http://maps.google.co.uk/maps?f=q&amp;
+   source=s_q&amp;hl=en&amp;geocode=&amp;
+   q=charing+cross+road+london&amp;output=embed">
+   </iframe>
+
+
+<!--  video tag -->
+
+   <h3>Video example</h3>
+    <video width="320" height="240" controls>
+       <source src="video.mp4" type="video/mp4">
+     </video>
+     
+</body>
+</html>

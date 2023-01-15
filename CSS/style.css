@@ -1,0 +1,102 @@
+body{
+    background-color: lightgrey;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#main-header{
+    background-color: grey;
+    color : #fff
+}
+
+#navbar{
+    
+    color:rgb(67, 52, 52);
+    
+}
+
+#navbar ul{
+    list-style: none;
+    padding:0;
+
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:rgb(81, 81, 79);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    text-shadow:1px 0px azure;
+}
+
+#navbar a:hover{
+    color:rgb(193, 191, 195);
+}
+
+
+#showcase{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    
+}
+
+#main{
+    float:left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+  
+}
+
+#sidebar{
+    float:right;
+    width: 20%;
+    background: rgb(56, 55, 55);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px; 
+
+} 
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 40%;
+        float: none;
+    }
+}
